@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ejercicio_03" />
+        <module name="ejercicio_02" />
+        <module name="ejercicio_01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="17" />
+      <module name="ejercicio_01" target="17" />
+      <module name="ejercicio_02" target="17" />
+      <module name="ejercicio_03" target="17" />
+      <module name="spring-deploy" target="17" />
+      <module name="spring-deploy (1)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="ejercicio_03" options="-parameters" />
+      <module name="spring-deploy" options="-parameters" />
+      <module name="spring-deploy (1)" options="-parameters" />
+    </option>
+  </component>
+</project>
